@@ -18,4 +18,7 @@ export class DatabaseService implements OnModuleInit {
   query(text: string, params?: any[]) {
     return this.pool.query(text, params);
   }
+  fun(){
+    console.log('Test Log from Db Services')
+  }
 }
