@@ -37,6 +37,7 @@ export class PropertyService {
   }
 
    checkLogin1() {
+    console.log('from GitTest')
     return 'Hello123';
     //return this.repo.checkLogin(userLoginto);
   }
